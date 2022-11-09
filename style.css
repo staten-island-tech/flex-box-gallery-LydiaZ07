@@ -1,0 +1,223 @@
+html,
+body,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-align: center;
+}
+
+body {
+    background-color: #E0FFE0;
+    /* width: 50%; */
+    width: 60%;
+    margin-left: 40rem;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Alkalami', serif;
+    letter-spacing: 1rem;
+    color: #023020;
+    transition: all 0.3%;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    animation: rotate 2s 1;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 60vw;
+
+}
+
+.imgs,
+.img,
+.imgs1 {
+    border: 5px green solid;
+    box-shadow: 5px 5px #90AF90;
+    border-radius: 3rem;
+    transition-duration: 0.2s;
+    margin-bottom: 5rem;
+    width: 20vw;
+}
+
+.img:hover {
+    transform: scale(1.1);
+    outline: 8px solid #FADADD;
+    padding: 6px;
+}
+
+.imgs:hover {
+    outline: 8px dotted lightcoral;
+    padding: 6px;
+    animation-name: rotate;
+    animation-duration: 1s;
+
+}
+
+.imgs1:hover {
+    border: 5px rgb(150, 196, 255) solid;
+    box-shadow: 5px 5px #030447;
+    transform: scale(1.3);
+}
+
+h1:hover {
+    transform: scale(1.5);
+}
+
+h2:hover {
+    transform: scale(1.2);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media all and (max-width : 390px) {
+
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .parent {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 4.5rem;
+
+    }
+
+    .img,
+    .imgs,
+    .imgs1 {
+        margin-bottom: 3rem;
+        width: 60vw;
+    }
+
+    .img:hover {
+        outline: 8px solid #FADADD;
+        padding: 6px;
+    }
+
+
+    .imgs:hover {
+        outline: 8px dotted lightcoral;
+        padding: 6px;
+        animation-name: rotate;
+        animation-duration: 1s;
+    }
+
+    .imgs1:hover {
+        border: 5px rgb(150, 196, 255) solid;
+        box-shadow: 5px 5px #030447;
+    }
+
+
+}
+
+@media all and (max-width: 820px) {
+
+    .parent {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 6.5rem;
+
+    }
+
+    .img,
+    .imgs,
+    .imgs1 {
+        margin-bottom: 3rem;
+        width: 60vw;
+    }
+
+    .img:hover {
+        outline: 8px solid #FADADD;
+        padding: 6px;
+    }
+
+
+    .imgs:hover {
+        outline: 8px dotted lightcoral;
+        padding: 6px;
+        animation-name: rotate;
+        animation-duration: 1s;
+    }
+
+    .imgs1:hover {
+        border: 5px rgb(150, 196, 255) solid;
+        box-shadow: 5px 5px #030447;
+    }
+
+    @media all and (max-width: 1366px) {
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .parent {
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-right: 5rem;
+
+        }
+
+        .img,
+        .imgs,
+        .imgs1 {
+            margin-bottom: 3rem;
+            width: 60vw;
+        }
+
+        .img:hover {
+            outline: 8px solid #FADADD;
+            padding: 6px;
+        }
+
+
+        .imgs:hover {
+            outline: 8px dotted lightcoral;
+            padding: 6px;
+            animation-name: rotate;
+            animation-duration: 1s;
+        }
+
+        .imgs1:hover {
+            border: 5px rgb(150, 196, 255) solid;
+            box-shadow: 5px 5px #030447;
+        }
+
+    }
+}
