@@ -146,7 +146,7 @@ h2:hover {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 6.5rem;
+        margin-left: 19rem;
 
     }
 
@@ -190,8 +190,7 @@ h2:hover {
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
-            margin-right: 5rem;
-
+            margin-right: 15rem;
         }
 
         .img,
